@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .align-element {
+        /* ! To use tailwind utility classes, we msut */
+        @apply mx-auto max-w-6xl px-8;
+    }
+}
